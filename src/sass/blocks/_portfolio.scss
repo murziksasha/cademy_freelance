@@ -1,0 +1,29 @@
+.portfolio {
+  text-align: center;
+  &__wrapper {
+    padding: 90px 0;
+  }
+
+  &__header {
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 51px; 
+    margin-bottom: 70px;
+  }
+
+  &__present {
+  }
+
+  &__project {
+    margin-bottom: 40px;
+  }
+
+  &__subheader {
+    font-size: 18px;
+    line-height: 27px;
+    text-decoration: underline;
+    margin-bottom: 90px;
+  }
+}
+.wrapper {
+}

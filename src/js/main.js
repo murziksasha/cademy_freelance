@@ -1,8 +1,5 @@
-"use strict"
+'use strict';
 
-
-document.addEventListener('DOMContentLoaded',()=>{
-  
+document.addEventListener('DOMContentLoaded', () => {
   console.log(' JS script WORKING!');
-
 });

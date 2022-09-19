@@ -1,0 +1,34 @@
+.skills {
+  background: #fff;
+
+
+  &__wrapper {
+    padding: 90px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__info {
+    &:not(:last-child){
+      margin-right: 30px;
+    }
+  }
+
+  &__ico {
+    margin-bottom: 30px;
+  }
+
+  &__header {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+
+  &__descr {
+    font-size: 14px;
+    line-height: 200%;
+  }
+}
