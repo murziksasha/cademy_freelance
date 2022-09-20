@@ -23,6 +23,9 @@
     line-height: 27px;
     text-decoration: underline;
     margin-bottom: 90px;
+    & a {
+      color: #000;
+    }
   }
 }
 .wrapper {

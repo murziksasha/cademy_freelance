@@ -5,14 +5,8 @@
   &__wrapper {
     padding: 90px 0;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-  }
-
-  &__info {
-    &:not(:last-child){
-      margin-right: 30px;
-    }
+    gap: 30px;
   }
 
   &__ico {
@@ -28,7 +22,6 @@
   }
 
   &__descr {
-    font-size: 14px;
-    line-height: 200%;
+    line-height: 2;
   }
 }
