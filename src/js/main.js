@@ -1,5 +1,13 @@
 'use strict';
 
 document.addEventListener('DOMContentLoaded', () => {
-  console.log(' JS script WORKING!');
+  
+  const btn = document.querySelector('.menu-btn');
+  const nav = document.querySelector('.nav');
+
+
+btn.addEventListener('click', ()=> {
+	nav.classList.toggle('menu-open');
+});
+
 });

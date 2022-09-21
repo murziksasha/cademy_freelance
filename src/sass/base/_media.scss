@@ -5,8 +5,49 @@
 }
 
 @media (max-width: 991px){
+
+
   .wrapper {
     max-width: 720px;
+
+
+    .menu-btn {
+      display: inline-block;
+      z-index: 9;
+    }
+
+    .menu__items {
+      display: none;
+    }
+
+    nav.menu-open .menu__items {
+      position: fixed;
+      top:0;
+      bottom: 0; 
+      left: 0;
+      right: 0;
+      background-color: #fff;
+      max-height: 812px;
+      padding: 46px 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      font-weight: 600;
+      font-size: 34px;
+      line-height: 51px;
+      color: #828282;
+      z-index: 1;
+      &.active {
+        color: #090909;
+      }
+
+    }
+
+
+
+
+
+    
   }
 }
 
