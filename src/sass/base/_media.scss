@@ -12,7 +12,6 @@
 
 
     .menu-btn {
-      position: fixed;
       display: inline-block;
       z-index: 9;
     }
@@ -22,6 +21,9 @@
     }
 
     nav.menu-open .menu__items {
+      .menu-btn {
+        position: fixed;
+      }
       position: fixed;
       top:0;
       bottom: 0; 
